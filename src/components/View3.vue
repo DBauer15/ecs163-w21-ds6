@@ -3,8 +3,10 @@
     <div class='container'>
     <h2>View3</h2>
     <svg viewBox='0 0 800 600'>
+        <rect x=5 y=5 width=790 height=590 fill='transparent' stroke='black' stroke-width=5 stroke-dasharray=10 stroke-opacity=0.3 />
+        <text x=370 y=70 fill-opacity=0.6>SVG</text>
         <rect x=300 y=200 width=200 height=200 fill='black' fill-opacity=0.3 />
-        <text x=370 y=300>SVG</text>
+        <text x=370 y=310>Rect</text>
     </svg>
     </div>
 </template>
@@ -39,7 +41,7 @@ export default {
 }
 
 .container svg {
-    background-color: #ff8c5f;
+    background-color: #ff8f63;
     font-size: 30px;
     
 }
